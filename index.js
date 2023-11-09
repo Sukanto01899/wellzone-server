@@ -22,7 +22,7 @@ const cors = require("cors");
 dbConnect();
 app.use(morgan("dev"));
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://wellzone-ecommarch.vercel.app",
   credentials: true,
   optionsSuccessStatus: 200
 }));
